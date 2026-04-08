@@ -1,0 +1,82 @@
+---
+title: "Chicago Crime Analysis"
+author: "Rex Stanley"
+output: html_document
+---
+
+# Chicago Crime Analysis  
+**Data Mining & Predictive Modelling using R**
+
+## Overview  
+This project explores crime trends in Chicago using a large-scale dataset (2001–2023). The aim is to understand how crime has changed over time and what factors may influence it.
+
+The analysis focuses on trends in crime and arrest rates, patterns across time and location, and the relationship between policing and crime.
+
+---
+
+## Key Insights  
+- Crime has declined over time  
+- Arrest rates have also decreased  
+- Crime varies by time of day and location  
+- Weak relationship between arrest rates and crime  
+- Crime patterns are influenced by human behaviour and broader social factors  
+
+---
+
+## Project Structure  
+```bash
+chicago-crime-analysis/
+├── data/
+│   ├── raw/
+│   └── processed/
+├── notebooks/
+│   └── chicago_crime_analysis.Rmd
+├── scripts/
+│   ├── 01_load_and_clean.R
+│   ├── 02_feature_engineering.R
+│   ├── 03_eda.R
+│   └── 04_modeling.R
+├── outputs/
+│   └── plots/
+├── README.md
+├── .gitignore
+└── chicago-crime-analysis.Rproj
+```
+
+---
+
+## Dataset  
+**Crimes – 2001 to Present (Chicago)**  
+- Source: Chicago Open Data Portal (via Kaggle)  
+- ~7 million records  
+
+*Note: Place dataset in `data/raw/`.*
+
+---
+
+## Methods  
+- Data cleaning and preprocessing  
+- Feature engineering  
+- Exploratory data analysis  
+- Regression analysis  
+- Classification modelling  
+- Data visualisation  
+
+---
+
+## Tools  
+R, tidyverse, lubridate, ggplot2, leaflet, sf  
+
+---
+
+## How to Run  
+1. Place dataset in `data/raw/`  
+2. Run scripts in order  
+3. Open Rmd for full analysis  
+
+---
+
+## Author  
+Rex Stanley  
+Master of Applied Data Science  
+University of Canterbury  
