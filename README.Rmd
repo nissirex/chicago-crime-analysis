@@ -1,7 +1,7 @@
 ---
 title: "Chicago Crime Analysis"
 author: "Rex Stanley"
-output: html_document
+output: github_document
 ---
 
 # Chicago Crime Analysis  
@@ -11,6 +11,16 @@ output: html_document
 This project explores crime trends in Chicago using a large-scale dataset (2001–2023). The aim is to understand how crime has changed over time and what factors may influence it.
 
 The analysis focuses on trends in crime and arrest rates, patterns across time and location, and the relationship between policing and crime.
+
+---
+
+## Final Poster
+
+**Punish or Prevent? Unpacking Chicago's Crime Debate** - Group Apex's final poster summarises the analysis of crime trends, arrest rates, and socioeconomic profiles across Chicago's 77 community areas, using regression, PCA, and K-means clustering.
+
+[![Final project poster: Punish or Prevent? Unpacking Chicago's Crime Debate](docs/images/final-poster.png)](docs/images/final-poster.png)
+
+[Open the full-size poster](docs/images/final-poster.png).
 
 ---
 
